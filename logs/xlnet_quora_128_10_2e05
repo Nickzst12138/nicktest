@@ -1,0 +1,67 @@
+2022-07-30 20:48:50,181 => 1.4.0
+2022-07-30 20:48:50,181 => cuda
+2022-07-30 20:48:51,860 => https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-spiece.model not found in cache or force_download set to True, downloading to C:\Users\eilee\AppData\Local\Temp\tmphzuezycl
+2022-07-30 20:48:54,303 => copying C:\Users\eilee\AppData\Local\Temp\tmphzuezycl to cache at C:\Users\eilee\.cache\torch\transformers\dad589d582573df0293448af5109cb6981ca77239ed314e15ca63b7b8a318ddd.8b10bd978b5d01c21303cc761fc9ecd464419b3bf921864a355ba807cfbfafa8
+2022-07-30 20:48:54,305 => creating metadata file for C:\Users\eilee\.cache\torch\transformers\dad589d582573df0293448af5109cb6981ca77239ed314e15ca63b7b8a318ddd.8b10bd978b5d01c21303cc761fc9ecd464419b3bf921864a355ba807cfbfafa8
+2022-07-30 20:48:54,310 => removing temp file C:\Users\eilee\AppData\Local\Temp\tmphzuezycl
+2022-07-30 20:48:54,311 => loading file https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-spiece.model from cache at C:\Users\eilee\.cache\torch\transformers\dad589d582573df0293448af5109cb6981ca77239ed314e15ca63b7b8a318ddd.8b10bd978b5d01c21303cc761fc9ecd464419b3bf921864a355ba807cfbfafa8
+2022-07-30 20:49:06,624 => https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-config.json not found in cache or force_download set to True, downloading to C:\Users\eilee\AppData\Local\Temp\tmpfcsfmug6
+2022-07-30 20:49:07,931 => copying C:\Users\eilee\AppData\Local\Temp\tmpfcsfmug6 to cache at C:\Users\eilee\.cache\torch\transformers\c9cc6e53904f7f3679a31ec4af244f4419e25ebc8e71ebf8c558a31cbcf07fc8.69e5e35e0b798cab5e473f253752f8bf4d280ee37682281a23eed80f6e2d09c6
+2022-07-30 20:49:07,932 => creating metadata file for C:\Users\eilee\.cache\torch\transformers\c9cc6e53904f7f3679a31ec4af244f4419e25ebc8e71ebf8c558a31cbcf07fc8.69e5e35e0b798cab5e473f253752f8bf4d280ee37682281a23eed80f6e2d09c6
+2022-07-30 20:49:07,932 => removing temp file C:\Users\eilee\AppData\Local\Temp\tmpfcsfmug6
+2022-07-30 20:49:07,933 => loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-config.json from cache at C:\Users\eilee\.cache\torch\transformers\c9cc6e53904f7f3679a31ec4af244f4419e25ebc8e71ebf8c558a31cbcf07fc8.69e5e35e0b798cab5e473f253752f8bf4d280ee37682281a23eed80f6e2d09c6
+2022-07-30 20:49:07,939 => Model config {
+  "architectures": [
+    "XLNetLMHeadModel"
+  ],
+  "attn_type": "bi",
+  "bi_data": false,
+  "bos_token_id": 1,
+  "clamp_len": -1,
+  "d_head": 64,
+  "d_inner": 3072,
+  "d_model": 768,
+  "dropout": 0.1,
+  "end_n_top": 5,
+  "eos_token_id": 2,
+  "ff_activation": "gelu",
+  "finetuning_task": null,
+  "initializer_range": 0.02,
+  "layer_norm_eps": 1e-12,
+  "mem_len": null,
+  "model_type": "xlnet",
+  "n_head": 12,
+  "n_layer": 12,
+  "n_token": 32000,
+  "num_labels": 2,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 5,
+  "pruned_heads": {},
+  "reuse_len": null,
+  "same_length": false,
+  "start_n_top": 5,
+  "summary_activation": "tanh",
+  "summary_last_dropout": 0.1,
+  "summary_type": "last",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 250
+    }
+  },
+  "torchscript": false,
+  "untie_r": true,
+  "use_bfloat16": false
+}
+
+2022-07-30 20:49:09,240 => https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-pytorch_model.bin not found in cache or force_download set to True, downloading to C:\Users\eilee\AppData\Local\Temp\tmpfmdnv0he
+2022-07-30 20:53:31,029 => copying C:\Users\eilee\AppData\Local\Temp\tmpfmdnv0he to cache at C:\Users\eilee\.cache\torch\transformers\24197ba0ce5dbfe23924431610704c88e2c0371afa49149360e4c823219ab474.7eac4fe898a021204e63c88c00ea68c60443c57f94b4bc3c02adbde6465745ac
+2022-07-30 20:53:31,420 => creating metadata file for C:\Users\eilee\.cache\torch\transformers\24197ba0ce5dbfe23924431610704c88e2c0371afa49149360e4c823219ab474.7eac4fe898a021204e63c88c00ea68c60443c57f94b4bc3c02adbde6465745ac
+2022-07-30 20:53:31,420 => removing temp file C:\Users\eilee\AppData\Local\Temp\tmpfmdnv0he
+2022-07-30 20:53:31,451 => loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/xlnet-base-cased-pytorch_model.bin from cache at C:\Users\eilee\.cache\torch\transformers\24197ba0ce5dbfe23924431610704c88e2c0371afa49149360e4c823219ab474.7eac4fe898a021204e63c88c00ea68c60443c57f94b4bc3c02adbde6465745ac
+2022-07-30 21:01:05,006 => Model Loaded!
+2022-07-30 21:01:05,006 => Optimizerlr: 2e-05	LR1_ML: 2e-05
+2022-07-30 21:01:05,007 => LR: 1.888121752571847e-05	Epoch: 0	
